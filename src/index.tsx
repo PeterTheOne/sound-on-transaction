@@ -2,8 +2,8 @@ import Web3 from 'web3';
 import {BlockHeader} from 'web3-eth';
 import './index.html';
 
-const networkRPC = 'ws://ws.tau1.artis.network'; //'wss://ws.sigma1.artis.network';
-const address = '0xe8dea11b54CE1aBDbB245D4162359754aA604E5b';
+const networkRPC = /*'ws://ws.tau1.artis.network'; */'wss://ws.sigma1.artis.network';
+const address = /*'0xe8dea11b54CE1aBDbB245D4162359754aA604E5b'; */'0x5c6b7070dcb17555AD23f973692C6DcD4eAf0555';
 const audio = new Audio('audio_file.mp3');
 
 const web3 = new Web3(networkRPC);
